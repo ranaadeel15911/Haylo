@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server"
 
 export const GET = (req)=>{
+    console.log('first')
 const res =  NextResponse.json({
     user:'adeel'
 })
